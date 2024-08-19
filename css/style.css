@@ -19,6 +19,41 @@ a {
     text-decoration: none;
 }
 
+p {
+    margin-bottom: 10px;
+}
+
+.separator {
+    margin: 20px auto;
+    height: 10px;
+    width: 100px;
+    background: black;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background: white;
+    color: #222;
+}
+
+.btn-primary:hover {
+    background: #222;
+    color: white;
+}
+
+.my-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
 /*Header*/
 
 .header {
@@ -58,4 +93,31 @@ a {
 
 .active {
     background: #444;
+}
+
+/* Bloc VP*/
+
+.vp {
+    height: 700px;
+    background: url("https://dyma-images.s3.fr-par.scw.cloud/html-css/projects/project1/cafe1.jpg") center center;
+    background-size: cover;
+    text-align: center;
+}
+
+.vp-content {
+    max-width: 600px;
+    padding-top: 200px;
+    color: white;
+    display: block;
+    margin: auto;
+}
+
+.vp-content h1 {
+    font-size: 50px;
+}
+
+.vp-content p {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 1.9em;
 }
